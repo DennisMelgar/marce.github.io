@@ -1,0 +1,118 @@
+.side.one {
+  width: 320px;
+  transform: skew(10deg,20deg);
+  background: linear-gradient(90deg, #fff, #fff 40%, #ddd);
+}
+.side.two {
+    transform: skew(10deg,-15deg);
+    background: linear-gradient(-90deg, #fff, #fff 40%, #f0f0f0);
+}
+.side {
+  background: #eee;
+  height: 550px;
+  width: 400px;
+  /* border: 1px solid red; */
+  padding: 10px;
+}
+
+div {
+  display: block;
+}
+Atributo style {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+element.style {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+#card {
+  height: 500px;
+  width: 800px;
+  margin: 5em auto;
+  position: fixed;
+  top: -15px;
+  left: 20%;
+  display: flex;
+  visibility: hidden;
+}
+#card h2 {
+    font-size: 4em;
+    margin: 0;
+    color: pink;
+    text-align: center;
+}
+#card h4 {
+    font-size: 2.5em;
+    margin: 0;
+    text-align: center;
+}
+#card p {
+    font-size: 1.0em;
+    margin: 0;
+    text-align: center;
+}
+#card a{
+text-align: center;
+}
+.btn1{
+  display: inline-block;
+  background-color: lightgreen;
+color: black;
+text-decoration: none;
+  padding: 15px 25px;
+cursor: pointer;
+}
+.btn2{
+  display: inline-block;
+  background-color: red;
+color: darkgray;
+text-decoration: none;
+  padding: 10px 20px;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Sacramento', cursive;
+  background-color: #f1e3d3;
+  overflow: hidden;
+}
+
+background-attachment scroll
+background-clip border-box
+background-color rgba(0, 0, 0, 0)
+background-image linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255) 40%, rgb(221, 221, 221))
+background-origin padding-box
+background-position-x 0%
+background-position-y 0%
+background-repeat repeat
+background-size auto
+display block
+font-family Sacramento, cursive
+height 550px
+padding-bottom 10px
+padding-left 10px
+padding-right 10px
+padding-top 10px
+transform matrix(1, 0.36397, 0.176327, 1, 0, 0)
+visibility visible
+width 320px
+
+#card {
+    height: 500px;
+    width: 800px;
+    margin: 5em auto;
+    position: fixed;
+    top: -15px;
+    left: 25%;
+    display: flex;
+    visibility: hidden;
+}
+
+.boton {
+  padding-left: 120px;
+}
